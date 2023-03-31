@@ -1,0 +1,94 @@
+.main {
+    /* background-image: url("../../assets/wallpaperflare.com_wallpaper.jpg"); */
+    /* background-repeat: no-repeat; */
+    background-size: 100% 100%;
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* margin: auto;
+    margin-left: 10rem;
+    width: 77%; */
+  }
+  
+  form {
+    margin-top: 2rem;
+    padding: 45px;
+    opacity: 70%;
+    position: relative;
+    background-color: black;
+    height: 530px;
+  }
+  
+  .login {
+    color: white;
+    font-size: 30px;
+    margin-left: 10px;
+    font-weight: 350;
+    margin-bottom: 40px;
+  }
+  
+  .ran {
+    color: white;
+  }
+  
+  .form-control {
+  
+    border-radius: 0%;
+    height: 47px;
+    background-color: rgb(82, 79, 79);
+    border: 1px solid rgb(82, 79, 79);
+    color: white;
+  }
+  
+  .btnSubmit {
+    background-color: #e50914;
+    width: 400px;
+    border: none;
+    border-radius: 0px;
+    z-index: 1;
+    color: white;
+    margin-top: 26px;
+    font-family: 300;
+  }
+  
+  .btnSubmit:hover {
+    background-color: #e50914;
+    box-shadow: #e50914;
+  }
+  
+  .endText {
+    color: white;
+    
+  }
+  .checkbox {
+    margin-right: 2px;
+    border: none;
+    border-radius: 0%;
+    background-color: rgb(82, 79, 79);
+    border: 1px solid rgb(82, 79, 79);
+    color: rgb(82, 79, 79);
+  }
+  .help {
+    display: flex;
+    float: right;
+  }
+  .etex {
+    margin-top: 10px;
+    color: rgb(100, 94, 94);
+  }
+  
+  .end {
+    padding-top: 115px;
+    color: rgb(100, 94, 94);
+  }
+  input[type="checkbox"] {
+    accent-color: rgb(100, 94, 94);
+  }
+  

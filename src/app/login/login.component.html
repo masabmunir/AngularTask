@@ -1,0 +1,30 @@
+<div class="main">
+    <div class="container">
+      <form [formGroup]="login" (ngSubmit)="SaveData()">
+        <div class="mb-3 mt-3 ran">
+          <h2 class="login"><b>Login</b></h2>
+          <input type="email" class="form-control" id="email" formControlName="email" placeholder="Email"
+            name="email">
+            <span class="text-danger" *ngIf="login.controls['email'].dirty && login.hasError('required','email')"> Email id is required </span>
+
+        </div>
+        <div class="mb-3 mt-3 ran">
+          <input type="password" class="form-control"  id="password" formControlName="password" placeholder="Password"
+            name="password">
+          <span class="text-danger" *ngIf="login.controls['password'].dirty && login.hasError('required','password')"> Password is required </span>
+
+        </div>
+        <button type="submit" class="btn btn-primary btnSubmit">Sign In</button>
+        <div class="endText etex">
+          <input class="checkbox" type="checkbox"> Remember Me
+          <span class="help">Need help?</span>
+        </div>
+  
+        <div class="endText end">
+          Don't have an account?
+          <a routerLink="/register" class="btn  ran">Sign up now</a>
+        </div>
+      </form>
+    </div>
+  </div>
+  

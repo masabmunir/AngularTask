@@ -1,0 +1,49 @@
+
+img {
+    height: 65px;
+    width: 100%;
+    margin-left: -1rem
+ }
+ 
+ .mat-icon {
+    vertical-align: center;
+    margin-right: 1rem;
+    color:white
+ }
+ 
+ .mt-2{
+    margin-left: 3rem;
+    margin-bottom: 1rem;
+ }
+ 
+ span{
+    margin-left: 1rem;
+ }
+ 
+ 
+ .button-hover {
+    font-size: 1rem;
+    color:white
+ } 
+ 
+  .mt-2{
+ color: white;
+ font-size: 23px;
+ }
+ 
+ .menu{
+ 
+    border: none;
+    background-color: #0d8ea1;
+    
+ }
+ 
+ .clear{
+    margin-left: 12rem;
+ }
+ 
+ mat-expansion-panel{
+    background-color: #0d8ea1;
+ }
+ 
+ 
